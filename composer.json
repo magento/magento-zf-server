@@ -1,5 +1,5 @@
 {
-    "name": "laminas/laminas-server",
+    "name": "magento/magento-zf-server",
     "description": "Create Reflection-based RPC servers",
     "license": "BSD-3-Clause",
     "keywords": [
@@ -39,6 +39,9 @@
         "phpunit/phpunit": "^10.5.58",
         "psalm/plugin-phpunit": "^0.19.0",
         "vimeo/psalm": "^6.13.1"
+    },
+    "replace": {
+      "laminas/laminas-server": "^2.18"
     },
     "autoload": {
         "psr-4": {
